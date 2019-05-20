@@ -7,7 +7,7 @@
 * {
   padding: 0;
   -GtkToolButton-icon-spacing: 4;
-  -GtkTextView-error-underline-color: #e92020;
+  -GtkTextView-error-underline-color: #f44336;
   -GtkCheckButton-indicator-size: 16;
   -GtkCheckMenuItem-indicator-size: 16;
   -GtkScrolledWindow-scrollbar-spacing: 0;
@@ -242,7 +242,7 @@ GtkTextView {
   .linked:not(.vertical) > .entry:focus + GtkComboBoxText > .the-button-in-the-combobox {
     border-left-color: #12214a; }
   .entry.error {
-    color: #e92020;
+    color: #f44336;
     border-color: #4f0808; }
     .entry.error:focus {
       background-color: transparent;
@@ -250,7 +250,7 @@ GtkTextView {
       box-shadow: inset 0 1px 1px 0px rgba(0, 0, 0, 0.05);
       border-color: #4f0808; }
     .entry.error:selected, .entry.error:selected:focus {
-      background-color: #e92020; }
+      background-color: #f44336; }
   .entry.warning {
     color: #F89B0F;
     border-color: #523202; }
@@ -5571,7 +5571,7 @@ widgets main borders color on backdrop windows */
 /*
 these are pretty self explicative */
 @define-color warning_color #F89B0F;
-@define-color error_color #e92020;
+@define-color error_color #f44336;
 @define-color success_color #3EB34F;
 /*
 these colors are exported for the window manager and shouldn't be used in applications,

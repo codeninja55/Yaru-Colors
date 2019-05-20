@@ -68,7 +68,7 @@ First color is the Ubuntu-Orange, second the Ubuntu-Purple
 | Yaru-MATE | `#78ab50` | `#4f6326` |
 | Yaru-Pink | `#e920a3` | `#742558` |
 | Yaru-Purple | `#a064d8` | `#4c1f7a` |
-| Yaru-Red | `#e92020` | `#742525` |
+| Yaru-Red | `#f44336` | `#742525` |
 | Yaru-Yellow | `#e9ba20` | `#746225` |
 
 

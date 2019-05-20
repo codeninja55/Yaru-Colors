@@ -16,7 +16,7 @@
 * {
   padding: 0;
   -GtkToolButton-icon-spacing: 4;
-  -GtkTextView-error-underline-color: #e92020;
+  -GtkTextView-error-underline-color: #f44336;
   -GtkScrolledWindow-scrollbar-spacing: 0;
   -GtkToolItemGroup-expander-size: 11;
   -GtkWidget-text-handle-width: 20;
@@ -301,12 +301,12 @@ entry {
       color: #999999; }
   spinbutton.error:not(.vertical),
   entry.error {
-    color: #e92020;
-    border-color: #e92020; }
+    color: #f44336;
+    border-color: #f44336; }
     spinbutton.error:focus:not(.vertical),
     entry.error:focus {
       box-shadow: inset 0 1px 1px 0px rgba(0, 0, 0, 0.05);
-      border-color: #e92020; }
+      border-color: #f44336; }
     spinbutton.error:not(:focus):not(.vertical),
     entry.error:not(:focus) {
       border-color: #2b2b2b; }
@@ -315,7 +315,7 @@ entry {
       border-color: #333333; }
     spinbutton.error:not(.vertical) selection,
     entry.error selection {
-      background-color: #e92020; }
+      background-color: #f44336; }
   spinbutton.warning:not(.vertical),
   entry.warning {
     color: #F89B0F;
@@ -414,7 +414,7 @@ entry:focus.error + combobox > box > button.combo, .linked:not(.vertical) > spin
 entry:focus.error +
 entry {
   transition: all 0.4s ease-out;
-  border-left-color: #e92020; }
+  border-left-color: #f44336; }
 
 .linked:not(.vertical) > spinbutton:focus.warning:not(.vertical) + spinbutton:not(.vertical),
 .linked:not(.vertical) > spinbutton:focus.warning:not(.vertical) + button,
@@ -466,7 +466,7 @@ entry + entry:focus:not(:only-child) {
 .linked.vertical > spinbutton:not(.vertical) + entry:focus.error:not(:only-child), .linked.vertical > entry + spinbutton:focus.error:not(:only-child):not(.vertical),
 .linked.vertical >
 entry + entry:focus.error:not(:only-child) {
-  border-top-color: #e92020; }
+  border-top-color: #f44336; }
 
 .linked.vertical > spinbutton:not(.vertical) + spinbutton:focus.warning:not(:only-child):not(.vertical),
 .linked.vertical > spinbutton:not(.vertical) + entry:focus.warning:not(:only-child), .linked.vertical > entry + spinbutton:focus.warning:not(:only-child):not(.vertical),
@@ -502,7 +502,7 @@ entry:focus.error:not(:only-child) + entry,
 entry:focus.error:not(:only-child) + button,
 .linked.vertical >
 entry:focus.error:not(:only-child) + combobox > box > button.combo {
-  border-top-color: #e92020; }
+  border-top-color: #f44336; }
 
 .linked.vertical > spinbutton:focus.warning:not(:only-child):not(.vertical) + spinbutton:not(.vertical),
 .linked.vertical > spinbutton:focus.warning:not(:only-child):not(.vertical) + entry,
@@ -5751,7 +5751,7 @@ infobar.warning {
   border-bottom: 1px solid #2b2b2b; }
 
 infobar.error {
-  background-color: #e92020;
+  background-color: #f44336;
   color: #F7F7F7;
   border-bottom: 1px solid #2b2b2b; }
 
@@ -6725,7 +6725,7 @@ widgets main borders color on backdrop windows */
 /*
 these are pretty self explicative */
 @define-color warning_color #F89B0F;
-@define-color error_color #e92020;
+@define-color error_color #f44336;
 @define-color success_color #3EB34F;
 /*
 these colors are exported for the window manager and shouldn't be used in applications,

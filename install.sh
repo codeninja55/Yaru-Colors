@@ -893,8 +893,8 @@ echo -e " "
 	   ;;
       Red)
 	   echo -e "${BGre}Okay, let's set the indicator color to Red...${RCol}"
-	   sudo -u ${RUID} DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/${RUSER_UID}/bus" gsettings set org.gnome.shell.extensions.dash-to-dock custom-theme-running-dots-color '#e92020' 2> /dev/null
-	   sudo -u ${RUID} DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/${RUSER_UID}/bus" gsettings set org.gnome.shell.extensions.dash-to-dock custom-theme-running-dots-border-color '#e92020' 2> /dev/null
+	   sudo -u ${RUID} DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/${RUSER_UID}/bus" gsettings set org.gnome.shell.extensions.dash-to-dock custom-theme-running-dots-color '#f44336' 2> /dev/null
+	   sudo -u ${RUID} DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/${RUSER_UID}/bus" gsettings set org.gnome.shell.extensions.dash-to-dock custom-theme-running-dots-border-color '#f44336' 2> /dev/null
 	   sleep 0.5
 	   echo -e "${BGre}Aww, look there, Red colored dots!${RCol}"
 	   break
